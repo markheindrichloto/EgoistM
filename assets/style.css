@@ -222,7 +222,7 @@ p{
 
 /* About Section */
 .about{
-    height: 800px;
+    height: 100%;
     text-align: center;
     background-image: linear-gradient(182deg, #000000, #18003C, #200038);
 }
@@ -241,7 +241,7 @@ p{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 400px;
     gap: 20px;
-    padding: 20px;
+    padding: 0 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .about_me_profile img, .about_me_profile2 img {
@@ -283,7 +283,7 @@ p{
 /* Skills Section */
 
 .section_skills{
-    height: 1000px;
+    height: 100%;
     padding: 10px 20px;
     text-align: center;
     background-image: linear-gradient(0deg, #000000, #18003C, #200038);
@@ -354,7 +354,7 @@ p{
 /* Projects Section */
 
 .section_project{
-    height: 800px;
+    height: 100%;
     padding: 10px 20px;
     text-align: center;
     background-image: linear-gradient(182deg, #000000, #18003C, #200038);
@@ -433,15 +433,10 @@ p{
 
 
 /* Contact Section */
-
-.section-contact {
-    padding: 10px;
-    font-size: 3em;
+.section_contact{
     color: #25eae6; 
     font-weight: bold;
-  }
-.section_contact{
-    height: 700px;
+    height: 100%;
     padding: 10px 20px;
     text-align: center;
     background-image: linear-gradient(0deg, #000000, #18003C, #200038);
